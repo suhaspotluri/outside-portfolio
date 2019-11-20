@@ -189,6 +189,11 @@ width:100%;
 	overflow: hidden;
 	
 }
+.textdiv{
+	background-color: #D67183;
+	border: #D67183 solid;
+	border-radius:10px;
+}
 .newslist{
 	height:80vh;
 	overflow:scroll;
