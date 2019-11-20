@@ -197,6 +197,7 @@ width:100%;
 .newslist{
 	height:80vh;
 	overflow:scroll;
+	overflow-x: hidden;
 }
 .flex-cont{
 	top:80px;
@@ -219,6 +220,8 @@ ul{
 	max-height:15vh;
 }
 .ra-card{
+	border: #D67183 solid;
+	border-radius:10px;
 	margin:15px auto;
 	padding:5px;
 	width:100%;
