@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/html5reset.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <title>Oliver Haimson</title>
+  </head>
+  <body>
+<header>
+    <div class="skip"><a href="#about">Skip to Main Content</a></div>
+    <div class="nav" role="navigation" id="nav">
+          <a id="navhome" href="#Home" onclick="myFunction()"><i class="material-icons">home</i>Home</a>
+          <a id="navabout" href="#about" onclick="myFunction()"><i class="material-icons">person</i> About</a>
+          <a id="navproj" href="#projects" onclick="myFunction()"><i class="material-icons">code</i> Publications</a>
+          <a id="navcont" href="#contact" onclick="myFunction()"><i class="material-icons">chat</i> Students</a>
+		  <a id="navcont" href="#contact" onclick="myFunction()"><i class="material-icons">chat</i> Teaching</a>
+    </div>
+	</header>
+	<a href="javascript:myFunction();"> <i id="arrow" class="material-icons">arrow_back_ios</i></a>
+	<div id="side" class="side">
+	
+	<img class="haimson" src="images/haimson.jpg" alt="haimson portrait">
+	<img class="umsi" src="images/SI.png" alt="UMSI logo">
+	<h2 class="h2-contact">Contact Info:</h2>
+	</div>
+	
+	<div id="main" class="main">
+	<h1>Oliver Haimson, Ph.D. Assistant Professor</h1>
+	<div class="flex-cont">
+	<div class="research">
+	<h2 class="rn">Research:</h2>
+	<ul>
+		<li>Research Areas: </li>
+		<li>Social computing </li>
+		<li>Human-computer interaction (HCI)</li>
+		<li>Gender </li>
+		<li>Online identity</li>
+		<li>Social media</li>
+		<li>Life transitions</li>
+		<li>Emotional health and well-being</li>
+	</ul>
+	<a href="http://oliverhaimson.com/lifetransitions.html">
+	<div class="ra-card">
+	<p>Social Media and Major Life Transitions</p>
+	<img src="images/transitionmachinery.png">
+	</div></a>
+	<a href="http://oliverhaimson.com/transSNS.html">
+	<div class="ra-card">
+	<p>Gender transition and social media</p>
+	<img src="images/transthumb.png">
+	</div></a>
+	<a href="http://oliverhaimson.com/onlinespacessensitivepopulations.html">
+	<div class="ra-card">
+	<p>Online spaces and sensitive populations</p>
+	<img src="images/onlinespacessensitivepopulations.png">
+	</div></a>
+	
+	</div>
+	<div class="news">
+	<h2 class="rn">News Feed:</h2>
+	</div>
+	</div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script>
+	function myFunction(){
+		console.log("clicked");
+		var x = document.getElementById("side");
+		var home=document.getElementById("arrow");
+		var m = document.getElementById("main");
+		if (x.className === "side") {
+			console.log("side");
+			x.className = "closed";
+			home.innerHTML=("arrow_forward_ios");
+			m.style.left="0px";
+			m.style.width="100vw";
+			home.style.left="1vw";
+			
+  } 	else {
+			x.className = "side";
+			console.log("closed");
+			home.innerHTML=("arrow_back_ios");
+			m.style.left="35vw";
+			m.style.width="65vw";
+			home.style.left="35vw";
+  }
+	}
+	</script>
+</body>
+
+</html>
+	
