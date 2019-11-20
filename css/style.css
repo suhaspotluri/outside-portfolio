@@ -185,6 +185,13 @@ width:100%;
 }
 .news{
 	width:100%;
+	height:100%;
+	overflow: hidden;
+	
+}
+.newslist{
+	height:80vh;
+	overflow:scroll;
 }
 .flex-cont{
 	top:80px;
