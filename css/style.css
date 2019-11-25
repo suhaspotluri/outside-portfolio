@@ -353,6 +353,18 @@ footer p{
 	justify-content:center;
 	flex-direction: column;
 }
+.teaching{
+	font-size:20px;
+}
+.teaching h4{
+	font-size:30px;
+	padding-top:20px;
+	color:#EF2D56;
+}
+.teaching a{
+	color:#00b8d4;
+	
+}
 @media screen and (min-width: 760px) {
 
 
