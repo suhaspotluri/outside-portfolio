@@ -195,22 +195,31 @@ h2{
 	color:#D67183;
 	text-align:center;
 }
+.flex-cont{
+	top:80px;
+	width:100%;
+	
+	height:calc(100vh - 145px);
+	text-align:center;
+	position:absolute;
+	display:flex;
+	justify-content:center;
+}
 .research{
-
 width:100%;
 }
 .news{
 	width:100%;
 	height:100%;
 	overflow: hidden;
+	#border:red solid;
 
 }
 .textdiv{
-	width:100%;
-	height:100%;
+	width:auto;
+	height:auto;
 	#background-color: #D67183;
 	#border: #D67183 solid;
-	border-radius:10px;
 	font-size:20px;
 }
 .textdiv td{
@@ -220,33 +229,25 @@ width:100%;
 	margin-left:10px;
 	border-radius:20%;
 }
-#col4 h4{
-	border-top:#249BC0 solid;
-	color:#249BC0;
-	#border-radius:100%;
-	padding-top:10px;
-	padding-bottom:2px;
-	font-size:20px;
-}
+
 .newslist{
-	margin-right:10px;
+	
 	border-left:#249BC0 solid;
 	border-right:#249BC0 solid;
 	width:100%;
-	height:80vh;
+	height:90vh;
 	overflow-x: hidden;
+	overflow-y:scroll;
 }
-#researchtable2{
-	width:100%;
+.news h4{
+	width:auto;
+	padding-top:5px;
+	border-top:#249BC0 solid;
+	border-right:#249BC0 solid;
+	font-size:20px;
 }
-.flex-cont{
-	top:80px;
-	width:100%;
-	text-align:center;
-	position:absolute;
-	display:flex;
-	justify-content:center;
-}
+
+
 ul{
 	font-size:20px;
 	padding:1vw;
@@ -302,6 +303,26 @@ h1 {
 	text-align:center;
    
 }
+.textdiv, br{
+	border-right:#249BC0 solid;
+	
+}
+footer{
+	text-align:center;
+	color:white;
+	bottom:0;
+	height:20px;
+	position:fixed;
+	width:100vw;
+	background-color:black;
+}
+footer p{
+	font-size:12px;
+	position:relative;
+	height:100%;
+	top:25%;
+}
+
 @media screen and (min-width: 760px) {
 
 
