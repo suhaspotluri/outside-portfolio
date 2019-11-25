@@ -5,6 +5,7 @@ body {
 	width:100vw;
 	font-family: 'Josefin Sans', sans-serif;
 	background-color:white;
+	overflow-x:hidden;
 }
 *{
 	font-family: 'Josefin Sans', sans-serif;
@@ -35,6 +36,21 @@ body {
 }
 a i:focus{
 	color:yellow;
+}
+.links a{
+	padding:5px;
+	font-size:20px;
+	color:black;
+	width:100%;
+	display:block;
+	text-align:center;
+	text-decoration:none;
+}
+a:hover{
+	color:yellow;
+}
+.links img{
+	width:15px;
 }
 
 .nav {
@@ -187,17 +203,41 @@ width:100%;
 	width:100%;
 	height:100%;
 	overflow: hidden;
-	
+
 }
 .textdiv{
-	background-color: #D67183;
-	border: #D67183 solid;
+	width:100%;
+	height:100%;
+	#background-color: #D67183;
+	#border: #D67183 solid;
 	border-radius:10px;
+	font-size:20px;
+}
+.textdiv td{
+	vertical-align:middle;
+}
+.textdiv img{
+	margin-left:10px;
+	border-radius:20%;
+}
+#col4 h4{
+	border-top:#249BC0 solid;
+	color:#249BC0;
+	#border-radius:100%;
+	padding-top:10px;
+	padding-bottom:2px;
+	font-size:20px;
 }
 .newslist{
+	margin-right:10px;
+	border-left:#249BC0 solid;
+	border-right:#249BC0 solid;
+	width:100%;
 	height:80vh;
-	overflow:scroll;
 	overflow-x: hidden;
+}
+#researchtable2{
+	width:100%;
 }
 .flex-cont{
 	top:80px;
@@ -213,6 +253,7 @@ ul{
 	width:100%;
 	list-style:none;
 }
+
 .ra-card img{
 	margin-top:10px;
 	width:auto;
@@ -255,7 +296,8 @@ h1 {
 	width:100%;
 	top:50px;
 	position:absolute;
-	font-size:45px;
+	font-size:250%;
+	font
     color:#249BC0;
 	text-align:center;
    
