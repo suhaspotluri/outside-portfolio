@@ -38,7 +38,7 @@ a i:focus{
 	color:yellow;
 }
 .links a{
-	padding:5px;
+	padding:6px;
 	font-size:20px;
 	color:black;
 	width:100%;
@@ -127,6 +127,10 @@ i {
 	height:100vh;
 	background-color:#B2DCE9;
 	overflow:auto;
+}
+.side-flex{
+	display:flex;
+	justify-content: space-around;
 }
 .closed{
 	top:64px;
