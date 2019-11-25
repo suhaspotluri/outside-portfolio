@@ -322,7 +322,37 @@ footer p{
 	height:100%;
 	top:25%;
 }
-
+.about-text{
+	margin:10px;
+	font-size:20px;
+}
+.about-text p{
+	margin:20px;
+}
+.about-text h2{
+	color:black;
+	font-size:25px;
+	padding-bottom:30px;
+	padding-top:50px;
+}
+.about-links img{
+	max-width:100%;
+	max-height:200px;
+	
+}
+.about-links{
+	display:grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: ". . ." ". . .";
+	grid-gap:50px;
+}
+.about-links-div{
+	display:flex;
+	height:100%;
+	justify-content:center;
+	flex-direction: column;
+}
 @media screen and (min-width: 760px) {
 
 
