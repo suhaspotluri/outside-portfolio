@@ -274,7 +274,7 @@ ul{
 	align-items:center;
 }
 .ra-card:hover{
-	background-color:red;
+	background-color:#249BC0;
 }
 .ra-card p{
 	color:white;
@@ -290,7 +290,7 @@ label {
 }
 
 footer p{
-	background-color:black;
+	background-color: #249BC0;
 	border:none;
 }
 h1 {
@@ -314,7 +314,7 @@ footer{
 	height:20px;
 	position:fixed;
 	width:100vw;
-	background-color:black;
+	background-color:#249BC0;
 }
 footer p{
 	font-size:12px;
