@@ -229,11 +229,19 @@ width:100%;
 }
 .textdiv td{
 	vertical-align:middle;
+<<<<<<< HEAD
 }
 .textdiv img{
 	margin-left:10px;
 	border-radius:20%;
 }
+=======
+}
+.textdiv img{
+	margin-left:10px;
+	border-radius:20%;
+}
+>>>>>>> f62d7050d9925a87da564b5020b5dd0d3f5c9bec
 
 .newslist{
 	
@@ -411,6 +419,11 @@ footer p{
 	max-width:200px;
 	padding-top:10px;
 }
+<<<<<<< HEAD
+=======
+
+@media screen and (min-width: 760px) {
+>>>>>>> f62d7050d9925a87da564b5020b5dd0d3f5c9bec
 
 @media screen and (min-width: 760px) {
 	body {
