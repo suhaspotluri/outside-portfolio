@@ -36,6 +36,10 @@ body {
 a i:focus{
 	color:yellow;
 }
+.container{
+	display:grid;
+	grid-template-columns: 
+}
 .links a{
 	padding:6px;
 	font-size:20px;
@@ -119,6 +123,7 @@ i {
 	display:flex;
 }
 .side{
+	display:none;
 	top:64px;
 	left:0;
 	position:fixed;
@@ -131,6 +136,7 @@ i {
 	display:flex;
 	justify-content: space-around;
 }
+
 .closed{
 	display:none;
 	top:64px;
@@ -143,6 +149,7 @@ i {
 	
 }
 #arrow{
+	display:none;
 	transform:translateX(-50%);
 	text-align:left;
 	position:fixed;
@@ -314,7 +321,6 @@ h1 {
 	font
     color:#249BC0;
 	text-align:center;
-   
 }
 .textdiv, br{
 	border-right:#249BC0 solid;
@@ -609,7 +615,6 @@ footer p{
 		text-align:center;
 	}
 	.research{
-	
 	width:100%;
 	}
 	.news{
