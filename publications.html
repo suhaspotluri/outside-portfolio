@@ -8,17 +8,18 @@
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://kit.fontawesome.com/a34c8d7423.js" crossorigin="anonymous"></script>
     <title>Oliver Haimson</title>
   </head>
   <body>
 <header>
-    <div class="skip"><a href="#main">Skip to Main Content</a></div>
+    <div class="skip"><a href="index.html">Skip to Main Content</a></div>
     <div class="nav" role="navigation" id="nav">
-          <a id="navhome" href="#Home" onclick="myFunction()"><i class="material-icons">home</i>Home</a>
-          <a id="navabout" href="#about" onclick="myFunction()"><i class="material-icons">person</i> About</a>
-          <a id="navproj" href="#projects" onclick="myFunction()"><i class="material-icons">code</i> Publications</a>
-          <a id="navcont" href="#contact" onclick="myFunction()"><i class="material-icons">chat</i> Students</a>
-		  <a id="navcont" href="#contact" onclick="myFunction()"><i class="material-icons">chat</i> Teaching</a>
+          <a id="navhome" href="index.html"><i class="material-icons">home</i>Home</a>
+          <a id="navabout" href="about.html" ><i class="material-icons">person</i> About</a>
+          <a id="navproj" href="publications.html" style="color:yellow" ><i class="material-icons">menu_book</i> Publications</a>
+          <a id="navcont" href="students.html"><i class="material-icons">supervisor_account</i> Students</a>
+		  <a id="navcont" href="teaching.html"><i class="material-icons">school</i> Teaching</a>
     </div>
 	</header>
 	<a href="javascript:myFunction();"> <i id="arrow" class="material-icons">arrow_back_ios</i></a>
@@ -26,55 +27,87 @@
 	
 	<img class="haimson" src="images/haimson.jpg" alt="haimson portrait">
 	<img class="umsi" src="images/SI.png" alt="UMSI logo">
+	<div class="side-flex">
+	<div class="links">
 	<h2 class="h2-contact">Contact Info:</h2>
+	<a href="mailto:haimson@umich.edu"><img src="images/email.png"> haimson@umich.edu</a>
+	<a href="https://twitter.com/oliverhaimson"><img src="images/twitter.png" > @oliverhaimson</a>
+	<a href="https://scholar.google.com/citations?user=-5n02zEAAAAJ&hl=en&oi=ao"><img src="images/scholar.png"> Oliver Haimson</a>
+	<a href="http://www.linkedin.com/pub/oliver-haimson/47/159/6ab"><img src="images/linkedin.png" > Oliver Haimson</a>
+	</div>
+	
+	<div class="links">
+	<h2 class="h2-contact">Links:</h2>
+	<a href="https://medium.com/@haimson">Blog</a>
+	<a href="http://oliverhaimson.com/PDFs/HaimsonCV.pdf">CV</a>
+	<a href="http://oliverhaimson.com/digitaltrans.html">DIGITAL TRANS READING LIST</a>
+	</div>
+	</div>
 	</div>
 	
 	<div id="main" class="main">
-	<h1>Oliver Haimson, Ph.D. Assistant Professor</h1>
+	<h1>Teaching</h1>
 	<div class="flex-cont">
-	<div class="research">
-	<h2 class="rn">Research:</h2>
-	<ul>
-		<li>Research Areas: </li>
-		<li>Social computing </li>
-		<li>Human-computer interaction (HCI)</li>
-		<li>Gender </li>
-		<li>Online identity</li>
-		<li>Social media</li>
-		<li>Life transitions</li>
-		<li>Emotional health and well-being</li>
-	</ul>
-	<a href="http://oliverhaimson.com/lifetransitions.html">
-	<div class="ra-card">
-	<p>Social Media and Major Life Transitions</p>
-	<img src="images/transitionmachinery.png">
-	</div></a>
-	<a href="http://oliverhaimson.com/transSNS.html">
-	<div class="ra-card">
-	<p>Gender transition and social media</p>
-	<img src="images/transthumb.png">
-	</div></a>
-	<a href="http://oliverhaimson.com/onlinespacessensitivepopulations.html">
-	<div class="ra-card">
-	<p>Online spaces and sensitive populations</p>
-	<img src="images/onlinespacessensitivepopulations.png">
-	</div></a>
+	<table class="teaching">
+		<tbody><tr>
+		<td id="col3" >
+		<div id="text">
+		<br>
+		
+		<h4>Fall 2019</h4>
+		<b>Assistant Professor, University of Michigan School of Information<br></b>
+		<a href="PDFs/315syllabus.pdf" target="_blank">SI 315: Interpersonal and Psychological Implications of Social Media</a><br> 
+		<a href="PDFs/482syllabus.pdf" target="_blank">SI 482: Interaction Design Studio</a><br> 
+		<p></p><p>
+		
+		</p><h4>Winter 2016</h4>
+		<b>Instructor, University of California, Irvine, School of Information and Computer Sciences<br></b>
+		<a href="https://eee.uci.edu/16w/36500" target="_blank">ICS4: Human Factors for the Web</a><br> 
+		<p></p><p>
+		
+		</p><h4>2011-2012</h4>
+		<b>Teaching Assistant, Carnegie Mellon University<br></b>
+		Principles of Economics<br>
+		<br><br>
+		<h4>Guest Lectures</h4>
+		
+		Trans Technologies. Guest lecture for Software Space (Architecture 509). University of Michigan. October 2019.<br><br>
+		
+		Some Things I've Learned About Survey Methods from Designing and Deploying Surveys,
+		2014-2019. Invited guest for Research Methods (School of Information 840). University of 
+		Michigan. February 2019.<br><br>
+		
+		Relationship Breakups and Media Ideologies on Facebook. Invited guest for 
+		Interpersonal &amp; Psychological Implications of Social Media (School of Information 315). University of 
+		Michigan. October 2017.<br><br>
+		Understanding Interfaces, Users, and Tasks. Guest lecture for
+		Introduction to HCI (Info 608). Drexel University. July 2017.<br><br>
+		Identity, Self-Disclosure, and Social Media. Invited talk at University of 
+		Pittsburgh, i3 iSchool Inclusion Institute (with Nazanin Andalibi). Pittsburgh, PA. 
+		June 2017.<br><br>
+		Research and Design for Sensitive Populations. Invited guest for 
+		User-Centered Design (COSC 480) (with Nazanin Andalibi). Colgate University. 
+		November 2016.<br><br>
+		Online Identity. Guest lecture for Mediated Interpersonal 
+		Communication (Communications 350). University of Hawaii. May 2015.<br><br>
+		Using Online Data to Understand Issues of Gender, Sexuality, Identity, and Public 
+		Health. Invited workshop at University of Pittsburgh, i3 iSchool Inclusion Institute. Pittsburgh, PA. 
+		June 2014.<br><br>
+		Information Visualization and Narrative. Guest lecture for Social 
+		Analysis of Computing (Informatics 161). University of California, Irvine. Irvine, CA. October 2013.<br><br>
+		Network and Information Visualization. Invited workshop at University of Pittsburgh, i3 iSchool Inclusion 
+		Institute. Pittsburgh, PA. June 2013. 
+	
+		</div></td>
+	</tr>
+	</tbody></table>
 	
 	</div>
-	<div class="news">
-	<h2 class="rn">News Feed:</h2>
 	</div>
 	</div>
-	</div>
-	
-	
-	
-	
-	
-	
-	
-	
-	
+	<footer>
+	<p>UMSI Web Design 2019</p>
+	</footer>
 	
 	
 	<script>
@@ -101,6 +134,7 @@
   }
 	}
 	</script>
+	
 </body>
 
 </html>
