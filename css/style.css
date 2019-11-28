@@ -530,7 +530,7 @@ footer p{
 		display:flex;
 	}
 	.side{
-		display:block;
+		display:none;
 		top:64px;
 		left:0;
 		position:fixed;
@@ -550,7 +550,7 @@ footer p{
 		
 	}
 	#arrow{
-		display:block;
+		display:none;
 		transform:translateX(-50%);
 		text-align:left;
 		position:fixed;
@@ -569,8 +569,8 @@ footer p{
 		position:absolute;
 		display:block;
 		top:64px;
-		left:35vw;
-		width:65vw;
+		left:0vw;
+		width:100vw;
 		position:absolute;
 		background-color:white;
 	}
