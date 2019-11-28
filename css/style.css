@@ -422,32 +422,45 @@ footer p{
 }
 .pubs{
 top:114px;
-display:block;
-position:absolute;
+display:flex;
+flex-direction:column;
+		align-items:center;
+		margin-left:auto;
+		margin-right:auto;
+
+position:relative;
 }
 .collapsible {
-  background-color: #777;
+	margin-top:5px;
+  background-color: #EF2D56;
   color: white;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border: none;
+  border:#EF2D56 solid;
   text-align:center;
   outline: none;
   font-size: 15px;
 }
 
 .active, .collapsible:hover {
-  background-color: #555;
+  background-color: #249BC0;
 }
 
 .content {
-  padding: 0 18px;
+  padding:10 18px;
   display: none;
   overflow: hidden;
+  
   background-color: #f1f1f1;
 }
-
+.content .textdiv{
+	padding:10px;
+	border-bottom:#EF2D56 solid;
+	border-left:#EF2D56 solid;
+	border-right:#EF2D56 solid;
+	
+}
 
 
 
