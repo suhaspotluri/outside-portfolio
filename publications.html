@@ -14,7 +14,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -23,14 +24,23 @@
   </head>
   <body>
 <header>
+
     <div class="skip"><a href="index.html">Skip to Main Content</a></div>
-    <div class="nav" role="navigation" id="nav">
+	<div class="topnav">
+			<a href="#home" class="active">Oliver Haimson</a>
+	<div class="nav" role="navigation" id="nav">
+		<div class="myLinks" id="links">
           <a id="navhome" href="index.html"><i class="material-icons">home</i>Home</a>
           <a id="navabout" href="about.html" ><i class="material-icons">person</i> About</a>
           <a id="navproj" href="publications.html" style="color:yellow" ><i class="material-icons">menu_book</i> Publications</a>
           <a id="navcont" href="students.html"><i class="material-icons">supervisor_account</i> Students</a>
 		  <a id="navteach" href="teaching.html"><i class="material-icons">school</i> Teaching</a>
-    </div>
+	</div>
+	<a href="javascript:void(0);" class="icon" onclick="myFunc()">
+			<i class="fa fa-bars"></i>
+		  </a>
+	</div>
+</div>
 	</header>
 	<a href="javascript:myFunction();"> <i id="arrow" class="material-icons">arrow_back_ios</i></a>
 	<div id="side" class="side">
@@ -648,6 +658,14 @@ for (i = 0; i < coll.length; i++) {
     }
   });
 }
+function myFunc(){
+  var x = document.getElementById("links");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+	}
 </script>
 	
 </body>

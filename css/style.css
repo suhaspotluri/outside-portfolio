@@ -532,7 +532,7 @@ position:relative;
 	  background-color: #D67183;
 	  color: white;
 	}
-	
+
 	.nav a.active {
 	  background-color: #4CAF50;
 	  color: white;
@@ -551,7 +551,6 @@ position:relative;
 		  margin-top:-5px;
 		}	
 		 
-	
 	.space{
 		position:relative;
 		height:98vh;
