@@ -123,7 +123,7 @@ i {
 	display:flex;
 }
 .side{
-	
+	display:none;
 	top:64px;
 	left:0;
 	position:fixed;
@@ -149,7 +149,7 @@ i {
 	
 }
 #arrow{
-	
+	display:none;
 	transform:translateX(-50%);
 	text-align:left;
 	position:fixed;
@@ -465,7 +465,7 @@ position:relative;
 	
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (min-width: 760px) {
 	body {
 		position:relative;
 		margin:0;
@@ -570,7 +570,7 @@ position:relative;
 		display:flex;
 	}
 	.side{
-		display:none;
+		display:block;
 		top:64px;
 		left:0;
 		position:fixed;
@@ -590,7 +590,7 @@ position:relative;
 		
 	}
 	#arrow{
-		display:none;
+		display:block;
 		transform:translateX(-50%);
 		text-align:left;
 		position:fixed;
