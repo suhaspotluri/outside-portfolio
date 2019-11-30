@@ -19,7 +19,7 @@
 	<div class="topnav">
 		<a href="#home" class="active">Oliver Haimson</a>
 	<div class="nav" role="navigation" id="nav">
-		<div class="myLinks">
+		<div class="myLinks" id="links">
           <a id="navhome" href="index.html" style="color:yellow"><i class="material-icons">home</i>Home</a>
           <a id="navabout" href="about.html" ><i class="material-icons">person</i> About</a>
           <a id="navproj" href="publications.html" ><i class="material-icons">menu_book</i> Publications</a>
@@ -1403,7 +1403,7 @@
   }}
 
   function myFunc(){
-  var x = document.getElementsByClassName("myLinks");
+  var x = document.getElementById("links");
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
