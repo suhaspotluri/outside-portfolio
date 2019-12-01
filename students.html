@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -15,19 +14,13 @@
   <body>
 <header>
     <div class="skip"><a href="index.html">Skip to Main Content</a></div>
-	<div class="nav" role="navigation" id="nav">
-		<a href="#home" class="active">Oliver Haimson</a>	
-		<div class="myLinks" id="links">
-          <a id="navhome" href="index.html" ><i class="material-icons">home</i>Home</a>
+    <div class="nav" role="navigation" id="nav">
+          <a id="navhome" href="index.html"><i class="material-icons">home</i>Home</a>
           <a id="navabout" href="about.html" ><i class="material-icons">person</i> About</a>
           <a id="navproj" href="publications.html" ><i class="material-icons">menu_book</i> Publications</a>
-          <a id="navcont" href="students.html" style="color:yellow"><i class="material-icons">supervisor_account</i> Students</a>
-		  <a id="navteach" href="teaching.html"><i class="material-icons">school</i> Teaching</a>
-		</div>
-		  <a href="javascript:void(0);" class="icon" onclick="myFunc()">
-			<i class="fa fa-bars"></i>
-		  </a>
-	</div>
+          <a id="navcont" href="students.html"style="color:yellow"><i class="material-icons">supervisor_account</i> Students</a>
+		  <a id="navcont" href="teaching.html"><i class="material-icons">school</i> Teaching</a>
+    </div>
 	</header>
 	<a href="javascript:myFunction();"> <i id="arrow" class="material-icons">arrow_back_ios</i></a>
 	<div id="side" class="side">
@@ -54,9 +47,14 @@
 	
 	<div id="main" class="main">
 	<h1>Students</h1>
+<<<<<<< HEAD
 	<div class="flex-cont">
-	<div class="student-flex">
-	<div class="teaching">
+	<table class="teaching">
+		<tbody><tr>
+		<td id="col3" >
+		<div id="text">
+		<br>
+		
 		<h4>PhD Students</h4>
 		<b>Assistant Professor, University of Michigan School of Information<br></b>
 		<a href="PDFs/315syllabus.pdf" target="_blank">SI 315: Interpersonal and Psychological Implications of Social Media</a><br> 
@@ -72,7 +70,12 @@
 		<b>Teaching Assistant, Carnegie Mellon University<br></b>
 		Principles of Economics<br>
 		<br><br>
-		</div>
+		</div></td>
+	</tr>
+	</tbody></table>
+	
+=======
+	<div class="student-flex">
 	<p class="intro">
 	 I will be recruiting PhD students to start in Fall 2020.
 		If you are a prospective PhD student interested in working with me, please 
@@ -213,8 +216,7 @@ research interests: human thoughts and behavior
 		</div>
 		</div>
 		</div>
-
-	</div>
+>>>>>>> 1b4a7a0a6b5f868afa00072298e4bc3c969e29b6
 	</div>
 	</div>
 	</div>
@@ -244,14 +246,6 @@ research interests: human thoughts and behavior
 			m.style.left="35vw";
 			m.style.width="65vw";
 			home.style.left="35vw";
-  }
-	}
-	function myFunc(){
-  var x = document.getElementById("links");
-  if (x.style.display === "block") {
-    x.style.display = "none";
-  } else {
-    x.style.display = "block";
   }
 	}
 	</script>
