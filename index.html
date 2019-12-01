@@ -16,9 +16,10 @@
   <body>
 <header>
     <div class="skip"><a href="index.html">Skip to Main Content</a></div>
-	<div class="topnav">
-		<a href="#home" class="active">Oliver Haimson</a>
+	
+		
 	<div class="nav" role="navigation" id="nav">
+		<a href="#home" class="active">Oliver Haimson</a>	
 		<div class="myLinks" id="links">
           <a id="navhome" href="index.html" style="color:yellow"><i class="material-icons">home</i>Home</a>
           <a id="navabout" href="about.html" ><i class="material-icons">person</i> About</a>
@@ -29,7 +30,6 @@
 		  <a href="javascript:void(0);" class="icon" onclick="myFunc()">
 			<i class="fa fa-bars"></i>
 		  </a>
-	</div>
 	</div>
 	</header>
 	<div class="container">
@@ -1404,7 +1404,7 @@
 
   function myFunc(){
   var x = document.getElementById("links");
-  if (x.style.display === "block") {
+  if (x.style.display == "block") {
     x.style.display = "none";
   } else {
     x.style.display = "block";
