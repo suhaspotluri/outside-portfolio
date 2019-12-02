@@ -20,7 +20,7 @@ body {
 	position:fixed;
 	width:100vw;
 	top:0;
-	background: #249BC0;
+	background:  #14576B;
 	z-index:2;
   }
 
@@ -64,7 +64,7 @@ body {
 		overflow: auto;
 		width:100vw;
 		top:0;
-		background: #249BC0;
+		background: #14576B;
 		z-index:2;
 	}
 	
@@ -99,8 +99,9 @@ body {
 	
 	
 .skip a{
-  background: white;
+  color:#FFFFFF;
   left: 0;
+  background-color: #292929;
   padding: 6px;
   position:relative; 
   top:40px;      
@@ -242,7 +243,7 @@ h2{
 	text-align:center;
 	margin-top:15px;
 	font-size:200%;
-	color:white;
+	color:#292929;
 }
 .rn{
 	padding:1vw;
@@ -322,13 +323,13 @@ ul{
 	max-height:15vh;
 }
 .ra-card{
-	border: #D67183 solid;
+	border: #DC8492 solid;
 	border-radius:10px;
 	margin:15px auto;
 	padding:5px;
 	width:100%;
 	max-width:25vw;
-	background-color:#D67183;
+	background-color:#DC8492;
 	display:flex;
 	flex-direction:column-reverse;
 	align-items:center;
@@ -337,7 +338,7 @@ ul{
 	background-color:#249BC0;
 }
 .ra-card p{
-	color:white;
+	color:#080808;
 	width:50%;
 	padding:10px;
 }
@@ -350,8 +351,9 @@ label {
 }
 
 footer p{
-	background-color: #249BC0;
+	background-color: #14576B;
 	border:none;
+	color:white;
 }
 h1 {
 	width:100%;
@@ -531,7 +533,8 @@ position:relative;
 		font-family: 'Josefin Sans', sans-serif;
 	}
 	.skip a{
-	  background: white;
+	color:#FFFFFF;
+	background-color: #292929;
 	  left: 0;
 	  padding: 6px;
 	  position:relative; 
@@ -546,6 +549,9 @@ position:relative;
 	.skip a:focus{
 		top:80px;
 		
+	}
+	.about-text a{
+		color: #14576C;
 	}
 	*:focus{
 		border:none;
@@ -564,7 +570,7 @@ position:relative;
 		width:100vw;
 		top:0;
 		left:0;
-		background: #249BC0;
+		background: #14576B;
 		z-index:2;
 		height:auto;
 	}
@@ -724,9 +730,10 @@ position:relative;
 	.textdiv{
 		width:90%;
 		margin:auto;
-		background-color: #D67183;
-		border: #D67183 solid 0px;
+		background-color: #DC8492;
+		border: #DC8492 solid 0px;
 		border-radius:10px;
+
 	}
 	.newslist{
 		height:80vh;
@@ -747,6 +754,9 @@ position:relative;
 		display:flex;
 		
 	}
+	a{
+		color:white;
+	}
 	ul{
 		font-size:20px;
 		padding:1vw;
@@ -760,13 +770,13 @@ position:relative;
 		max-height:15vh;
 	}
 	.ra-card{
-		border: #D67183 solid;
+		border: #DC8492 solid;
 		border-radius:10px;
 		margin:15px auto;
 		padding:5px;
 		width:100%;
 		max-width:90vw;
-		background-color:#D67183;
+		background-color:#DC8492;
 		display:flex;
 		flex-direction:column-reverse;
 		align-items:center;
@@ -775,11 +785,14 @@ position:relative;
 		background-color:red;
 	}
 	.ra-card p{
-		color:white;
+		color:#080808;
 		width:90%;
 		padding:10px;
 	}
-	
+	td > a{
+		color: #080808;
+		background-color:#DF90A4;
+	}
 	
 	label {
 		display:block;
