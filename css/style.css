@@ -128,7 +128,7 @@ a i:focus{
 
 .links a{
 	padding:6px;
-	font-size:20px;
+	font-size:17px;
 	color:black;
 	width:100%;
 	display:block;
@@ -242,7 +242,7 @@ a:focus #arrow{
 h2{
 	text-align:center;
 	margin-top:15px;
-	font-size:200%;
+	font-size:150%;
 	color:#292929;
 }
 .rn{
@@ -577,8 +577,6 @@ p > a {
 	a i:focus{
 		color:yellow;
 	}
-
-
 	.nav {
 		text-align: center;
 		margin:0;
@@ -715,7 +713,6 @@ p > a {
 		max-width:70%;
 		max-height:20%;
 	}
-	
 	
 	h2{
 		text-align:center;
