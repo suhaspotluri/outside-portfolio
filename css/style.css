@@ -422,10 +422,7 @@ footer p{
 	padding-top:20px;
 	color:#EF2D56;
 }
-.teaching a{
-	color:#00b8d4;
 	
-}
 .stud-flex{
 	position:relative;
 	display:flex;
@@ -450,7 +447,7 @@ footer p{
 	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
   transition: 0.3s;
   max-width:20%;
-  background-color:#d67183;
+  background-color:#9F2D40;
   color:white;
   margin:10px;
 }
@@ -553,6 +550,9 @@ position:relative;
 	}
 	.about-text a{
 		color: #14576C;
+	}
+	.teaching > a{
+		color:#14576C;
 	}
 	*:focus{
 		border:none;
