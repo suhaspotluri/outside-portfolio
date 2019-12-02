@@ -511,11 +511,24 @@ position:relative;
 		
 	}
 
-
-
-
-
-
+.teaching > a{
+		color:#14576C;
+}
+.intro > a {
+	color:#14576C;
+}
+.about-text > a{
+	color: #14576C;
+}
+.teaching > a{
+	color:#14576C;
+}
+p > a {
+	color:#14576C;
+}
+#text > a{
+	color:#14576C;
+}
 @media screen and (max-width: 760px) {
 	body {
 		position:relative;
@@ -548,7 +561,7 @@ position:relative;
 		top:80px;
 		
 	}
-	.about-text a{
+	.about-text > a{
 		color: #14576C;
 	}
 	.teaching > a{
@@ -557,6 +570,9 @@ position:relative;
 	*:focus{
 		border:none;
 		z-index:5;
+	}
+	p > a{
+		color:#14576C;
 	}
 	a i:focus{
 		color:yellow;
