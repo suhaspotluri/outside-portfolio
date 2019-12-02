@@ -506,6 +506,11 @@ position:relative;
 	border-right:#EF2D56 solid;
 	
 }
+.news img{
+		width:auto; 
+		max-width:80px;
+		
+	}
 
 
 
@@ -520,6 +525,7 @@ position:relative;
 		width:100vw;
 		font-family: 'Josefin Sans', sans-serif;
 		background-color:white;
+		overflow-x:hidden;
 	}
 	*{
 		font-family: 'Josefin Sans', sans-serif;
@@ -701,12 +707,17 @@ position:relative;
 	}
 	.research{
 		position:relative;
-		width:100%;
+		width:100vw;
 	}
 	.news{
 		position:relative;
-		width:100%;
-		overflow:scroll;
+		width:100vw;
+		overflow:hidden;
+		
+	}
+	.news img{
+		width:auto; 
+		max-width:80px;
 		
 	}
 	.textdiv{
@@ -716,11 +727,11 @@ position:relative;
 	}
 	.newslist{
 		height:80vh;
-		overflow:scroll;
 		overflow-x: hidden;
 	}
+	
 	.flex-cont{
-		top:30px;
+		top:40px;
 		width:100%;
 		height:auto;
 		text-align:center;
