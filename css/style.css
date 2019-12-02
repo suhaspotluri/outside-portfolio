@@ -61,7 +61,7 @@ body {
 		padding:5px;
 		margin:0;
 		position:fixed;
-		overflow: auto;
+		overflow:hide;
 		width:100vw;
 		top:0;
 		background: #14576B;
@@ -75,7 +75,7 @@ body {
 		color: white;
 		padding: 15px;
 		text-decoration: none;
-		font-size: 24px;
+		font-size: 2vw;
 	  
 	}
 	
@@ -171,7 +171,7 @@ i {
 	left:0;
 	position:fixed;
 	width:35vw;
-	height:100vh;
+	height:calc(100vh - 64px);
 	background-color:#B2DCE9;
 	overflow:auto;
 }
@@ -222,9 +222,9 @@ a:focus #arrow{
 	align-items:center;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top:50px;
+	margin-top:10px;
 	max-width:70%;
-	max-height:50%;
+	max-height:45%;
 	border: 15px solid #249BC0;
 	
 }
