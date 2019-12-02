@@ -704,6 +704,7 @@ position:relative;
 		padding:0;
 		color:#D67183;
 		text-align:center;
+		border:none;
 	}
 	.research{
 		position:relative;
@@ -721,13 +722,19 @@ position:relative;
 		
 	}
 	.textdiv{
+		width:90%;
+		margin:auto;
 		background-color: #D67183;
-		border: #D67183 solid;
+		border: #D67183 solid 0px;
 		border-radius:10px;
 	}
 	.newslist{
 		height:80vh;
 		overflow-x: hidden;
+		border:none;
+	}
+	.newslist h4{
+		border:none;
 	}
 	
 	.flex-cont{
