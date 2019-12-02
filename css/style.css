@@ -252,7 +252,7 @@ h2{
 .flex-cont{
 	top:80px;
 	width:100%;
-	
+	padding-top: 50px;
 	height:calc(100vh - 145px);
 	text-align:center;
 	position:absolute;
