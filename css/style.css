@@ -479,7 +479,7 @@ position:relative;
 }
 .collapsible {
 	margin-top:5px;
-  background-color: #EF2D56;
+  background-color: #A70C2D;
   color: white;
   cursor: pointer;
   padding: 18px;
@@ -532,6 +532,7 @@ position:relative;
 	*{
 		font-family: 'Josefin Sans', sans-serif;
 	}
+
 	.skip a{
 	color:#FFFFFF;
 	background-color: #292929;
