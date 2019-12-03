@@ -11,6 +11,13 @@ body {
 *{
 	font-family: 'Josefin Sans', sans-serif;
 }
+.newslist::-webkit-scrollbar,body::-webkit-scrollbar {
+	width: 0.7em;
+	background: transparent;
+  }
+.newslist::-webkit-scrollbar-thumb,body::-webkit-scrollbar-thumb {
+	background: #9F2D40;
+  }
 .topnav {
 	overflow: hidden;
 	position: relative;
@@ -268,13 +275,16 @@ overflow: hidden;
 flex-direction:column;
 }
 .news{
+	margin-right: 1px;
 	position:relative;
 	width:100%;
 	height:100%;
-	overflow: hidden;
-
+	overflow:hidden;
+	
 }
 .textdiv{
+	border-bottom:1px solid #14576B;
+	border-right: 1px solid #14576B;
 	width:auto;
 	height:auto;
 	font-size:20px;
@@ -294,16 +304,21 @@ flex-direction:column;
 }
 
 .newslist{
-
+	
 	width:100%;
 	height:100%;
 	overflow-x:auto;
 	overflow-y:scroll;
+	border-left:1px solid #14576B;
 }
 .news h4{
+	border-right:1px #14576B solid;
 	width:auto;
 	padding-top:5px;
 	font-size:20px;
+}
+.news h4:first-child{
+	border-top:1px #14576B solid;
 }
 
 
@@ -549,6 +564,8 @@ position:relative;
 #text > a{
 	color:#14576C;
 } */
+
+
 @media screen and (max-width: 760px) {
 	body {
 		position:relative;
@@ -754,6 +771,7 @@ position:relative;
 		width:100vw;
 	}
 	.news{
+		
 		position:relative;
 		width:100vw;
 		overflow:hidden;
@@ -846,7 +864,7 @@ position:relative;
 		width:100%;
 		top:10px;
 		position:absolute;
-		font-size:35px;
+		font-size:30px;
 		color:#249BC0;
 		text-align:center;
 	   
