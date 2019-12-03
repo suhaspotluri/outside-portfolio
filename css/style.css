@@ -104,9 +104,8 @@ body {
   background-color: #292929;
   padding: 6px;
   position:relative; 
-  top:40px;      
-  -webkit-transition: top 1s ease-out;
-  transition: top 1s ease-out;
+  text-decoration:none;
+  top:80px;      
   z-index: 5;
 }
 .skip{
@@ -119,7 +118,6 @@ body {
 *:focus{
 	outline-color:yellow;
 	outline-width: 1px;
-	border:2px solid yellow;
 	z-index:5;
 }
 a i:focus{
@@ -247,7 +245,7 @@ h2{
 	color:#292929;
 }
 .rn{
-	padding:1vw;
+	padding-top:10px;
 	color:#EF2D56;
 	text-align:center;
 }
@@ -264,7 +262,9 @@ h2{
 .research{
 	position:relative;
 width:100%;
+height: 100%;
 display:flex;
+overflow: hidden;
 flex-direction:column;
 }
 .news{
@@ -277,8 +277,6 @@ flex-direction:column;
 .textdiv{
 	width:auto;
 	height:auto;
-	#background-color: #D67183;
-	#border: #D67183 solid;
 	font-size:20px;
 }
 .textdiv td{
@@ -296,19 +294,15 @@ flex-direction:column;
 }
 
 .newslist{
-	
-	border-left:#249BC0 solid;
-	border-right:#249BC0 solid;
+
 	width:100%;
-	height:90vh;
-	overflow-x: hidden;
+	height:100%;
+	overflow-x:auto;
 	overflow-y:scroll;
 }
 .news h4{
 	width:auto;
 	padding-top:5px;
-	border-top:#249BC0 solid;
-	border-right:#249BC0 solid;
 	font-size:20px;
 }
 
@@ -322,17 +316,19 @@ ul{
 
 .ra-card img{
 	margin-top:10px;
-	width:auto;
-	height:auto;
-	max-height:15vh;
+	width: 19%;
+	height: auto;
+	
 }
 .ra-card{
 	border: #DC8492 solid;
 	border-radius:10px;
 	margin:15px auto;
 	padding:5px;
-	width:100%;
-	max-width:25vw;
+	width:80%;
+	height: auto;
+	max-width:20vw;
+	max-height: 100%;
 	background-color:#DC8492;
 	display:flex;
 	flex-direction:column-reverse;
@@ -363,12 +359,11 @@ h1 {
 	width:100%;
 	top:30px;
 	position:absolute;
-	font-size:250%;
+	font-size:200%;
     color:#14576B;
 	text-align:center;
 }
 .textdiv, br{
-	border-right:#249BC0 solid;
 	
 }
 footer{
@@ -387,7 +382,7 @@ footer p{
 	top:25%;
 }
 .about-text{
-	margin:10px;
+	margin:20px;
 	font-size:20px;
 }
 .about-text p{
@@ -418,12 +413,17 @@ footer p{
 	flex-direction: column;
 }
 .teaching{
+	position: relative;
+	top:40px;
 	font-size:20px;
 }
 .teaching h4{
 	font-size:30px;
 	padding-top:20px;
 	color:#EF2D56;
+}
+#researchTable3{
+	margin:10px;
 }
 	
 .stud-flex{
@@ -442,6 +442,10 @@ footer p{
 	
 }
 .student-flex .intro{
+	position: relative;
+	top:10px;
+	padding-top:5px;
+    border-top:#9F2D40 solid;
 	padding-left:5%;
 	padding-right:5%;
 	font-size:20px;
@@ -468,7 +472,7 @@ footer p{
 	padding-top:10px;
 }
 .pubs{
-top:114px;
+top:100px;
 display:flex;
 flex-direction:column;
 		align-items:center;
@@ -498,15 +502,24 @@ position:relative;
   padding:10 18px;
   display: none;
   overflow: hidden;
-  
   background-color: #f1f1f1;
 }
 .content .textdiv{
 	padding:10px;
+	width: 100%;
+	margin:0;
+}
+.content .textdiv tr{
 	border-bottom:#EF2D56 solid;
-	border-left:#EF2D56 solid;
-	border-right:#EF2D56 solid;
-	
+	border-width: 2px;
+}
+.content .textdiv td:first-child{
+	width:50px;
+}
+.content img{
+	height:10vw;
+	max-height:200px;
+	padding:10px;
 }
 .news img{
 		width:auto; 
