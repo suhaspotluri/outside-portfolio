@@ -545,25 +545,9 @@ position:relative;
 		max-width:80px;
 		
 	}
-
-/* .teaching > a{
-		color:#14576C;
-} */
-/* .intro > a {
-	color:#14576C;
+.about-side{
+	display:none;
 }
-.about-text > a{
-	color: #14576C;
-} */
-/* .teaching > a{
-	color:#14576C;
-} */
-/* p > a {
-	color:#14576C;
-}
-#text > a{
-	color:#14576C;
-} */
 
 
 @media screen and (max-width: 760px) {
@@ -844,6 +828,9 @@ position:relative;
 	  color:white;
 	  margin:10px;
 	}
+	.about-side{
+	display:inline;
+}
 
 }
 
