@@ -507,7 +507,7 @@ position:relative;
   cursor: pointer;
   padding: 18px;
   width: 100%;
-  border:#EF2D56 solid;
+  border:#A70C2D solid;
   text-align:center;
   outline: none;
   font-size: 15px;
@@ -547,6 +547,9 @@ position:relative;
 	}
 .about-side{
 	display:none;
+}
+.centeredImage{
+	width:100%;
 }
 
 
@@ -830,6 +833,10 @@ position:relative;
 	}
 	.about-side{
 	display:inline;
+}
+#researchTable3{
+	margin:10px;
+	margin-top: 30px;
 }
 
 }
