@@ -11,7 +11,7 @@ body {
 *{
 	font-family: 'Josefin Sans', sans-serif;
 }
-.newslist::-webkit-scrollbar,body::-webkit-scrollbar {
+.newslist::-webkit-scrollbar,body::-webkit-scrollbar,.research::-webkit-scrollbar {
 	width: 0.7em;
 	background: transparent;
   }
@@ -271,7 +271,7 @@ h2{
 width:100%;
 height: 100%;
 display:flex;
-overflow: hidden;
+overflow:auto;
 flex-direction:column;
 }
 .news{
